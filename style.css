@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 150px;
+    background-color: aliceblue
+}
+.left1 h2{
+    font-size: 50px;
+}
+.right1{
+    line-height: 90px;
+    font-size: 13px;
+    margin-right: 40px;
+}
+.menu button{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 5px 22px;
+    border-start-start-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+}
+.right1 span{
+    margin-left: 20px;
+}
+
+.div img{
+    width: 95%;
+    height: 450px;
+    position: relative;
+    margin-left: 30px;
+    border-radius: 50px;
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+}
+.vl{
+    border-left: 3.18px solid black;
+    height: 200px ;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+.left2{
+    font-size: 35px;
+    padding-top: 35px;
+    padding-left: 80px;
+    padding-right: 400px;
+}
+.right2{
+    padding-right: 200px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.icon{
+    display: flex;
+    font-size: 30px;
+    margin-top: 125px;
+}
+.icon i{
+    padding: 5px;
+}
+.big-hl{
+    border-bottom: 3.18px solid black;
+    width: 93vw ;
+    margin: 20px;
+    margin-left: 30px;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+}
+.big-vl{
+    border-left: 3.18px solid black;
+    height: 150px ;
+    margin-right: 50px;
+}
+.left3{
+    width: 30%;
+    display: flex;
+    justify-content:space-around;
+}
+.right3{
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+}
+.right3 h2{
+    font-size: 20px;
+}
+.right3 p{
+    font-size: 13.5px;
+}
+.vl-small{
+    border-left: 3.18px solid black;
+    height: 50px ;
+    margin-right: 50px;
+}
+.one,.two,.third,.four{
+    width: 40%;
+}
+.hl{
+    border-bottom: 2.5px solid black;
+    width: 63vw ;
+    margin: 20px 20px 20px 0px;
+}
+footer h1{
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: auto;
+    font-size: 48px;
+}
+footer h1::-webkit-scrollbar {
+    display: none;
+  }
